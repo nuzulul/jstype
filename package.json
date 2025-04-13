@@ -1,0 +1,23 @@
+{
+  "name": "jstype",
+  "version": "1.0.0",
+  "description": "javascript with type",
+  "main": "index.js",
+  "scripts": {
+    "type-check": "tsc",
+    "test": "node --test && npm run type-check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuzulul/jstype.git"
+  },
+  "author": "Nuzulul Zulkarnain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nuzulul/jstype/issues"
+  },
+  "homepage": "https://github.com/nuzulul/jstype#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
